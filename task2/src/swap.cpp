@@ -1,13 +1,13 @@
 #include "swap.h"
 
-void swapByPointer(int* a, int* b) {
-    int temp = *a;
+void swapP(int* a, int* b) {
+    int t = *a;
     *a = *b;
-    *b = temp;
+    *b = t;
 }
 
-void swapByReference(int& a, int& b) {
-    int temp = a;
+void swapR(int& a, int& b) {
+    int t = a;
     a = b;
-    b = temp;
+    b = t;
 }
